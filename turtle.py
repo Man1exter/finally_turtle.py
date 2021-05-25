@@ -11,4 +11,4 @@ t.shape("turtle")
 
 
 # exit from window with turtle module..
-turtle.exitonclick()
+t.exitonclick()
