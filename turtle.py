@@ -2,13 +2,19 @@ import turtle
 import random
 import sys
 
-
 # initialization elements..
-t = turtle.Turtle()
-t.shape("turtle")
+tur = turtle.Turtle()
+tur.shape('turtle')
 
-# loop with main sentences..
+# settings turtle..
+turtle.bgcolor('black')
+tur.speed(10)
 
+# drawing loop code mode..
+for it in range(50,500):
+  tur.color(random.choice(["blue","red","yellow","brown","purple"]))
+  tur.forward(it)
+  tur.right(92)
 
-# exit from window with turtle module..
-t.exitonclick()
+# exit from the window with turtle
+tur.exitonclick()
