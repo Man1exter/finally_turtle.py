@@ -6,7 +6,7 @@ tur = turtle.Turtle()
 tur.shape('turtle')
 
 # settings turtle..
-turtle.bgcolor('lightblue')
+tur.bgcolor('lightblue')
 tur.speed(5)
 
 # drawing loop code mode..
