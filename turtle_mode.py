@@ -54,7 +54,7 @@ def drawSpecial(t,size,repeat):
 drawSpecial(Barry,100,10)
 Jons = turtle.Turtle()
 Jons.speed(0)
-Jons.color('orange')
+Jons.color('red')
 rotate=int(90)
 
 def drawCircles(t,size):
@@ -70,7 +70,7 @@ def drawSpecial(t,size,repeat):
 drawSpecial(Jons,100,10)
 Annie = turtle.Turtle()
 Annie.speed(0)
-Annie.color('pink')
+Annie.color('green')
 rotate=int(90)
 
 def drawCircles(t,size):
