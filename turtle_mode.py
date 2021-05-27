@@ -35,7 +35,7 @@ def drawSpecial(t,size,repeat):
         drawCircles(t,size)
         t.right(360/repeat)
 
-drawSpecial(Krystov,100,10)
+drawSpecial(Krystov,110,11)
 Barry = turtle.Turtle()
 Barry.speed(0)
 Barry.color('blue')
@@ -51,7 +51,7 @@ def drawSpecial(t,size,repeat):
         drawCircles(t,size)
         t.right(360/repeat)
 
-drawSpecial(Barry,100,10)
+drawSpecial(Barry,120,12)
 Jons = turtle.Turtle()
 Jons.speed(0)
 Jons.color('red')
@@ -67,7 +67,7 @@ def drawSpecial(t,size,repeat):
         drawCircles(t,size)
         t.right(360/repeat)
 
-drawSpecial(Jons,100,10)
+drawSpecial(Jons,130,13)
 Annie = turtle.Turtle()
 Annie.speed(0)
 Annie.color('green')
@@ -83,4 +83,4 @@ def drawSpecial(t,size,repeat):
         drawCircles(t,size)
         t.right(360/repeat)
 
-drawSpecial(Annie,100,10)
+drawSpecial(Annie,140,14)
