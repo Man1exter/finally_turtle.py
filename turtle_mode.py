@@ -6,12 +6,13 @@ tur = turtle.Turtle()
 tur.shape('turtle')
 
 # settings turtle..
-tur.bgcolor('lightblue')
-tur.speed(5)
+turtle.bgcolor('black')
+tur.speed(10)
+tur.pensize(5)
 
 # drawing loop code mode..
 for it in range(50,500):
-  tur.color(random.choice(["white","black"]))
+  tur.color(random.choice(["white","yellow","blue"]))
   tur.forward(it)
   tur.right(92)
 
