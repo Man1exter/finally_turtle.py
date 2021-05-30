@@ -13,6 +13,14 @@ turtle.title("who's first at the finish line?")
 
 # players
 
+user_one = turtle.Turtle()
+user_one.shape("turtle")
+user_one.pensize(3)
+
+user_two = turtle.Turtle()
+user_two.shape("turtle")
+user_two.pensize(3)
+
 # start-line
 
 # finish-line
@@ -25,6 +33,7 @@ finish_line.write("FINISH",font=("helvetic",20,"bold"))
 
 finish_line.penup()
 finish_line.pensize(5)
+finish_line.color("gray")
 finish_line.goto(290,250)
 finish_line.pendown()
 finish_line.goto(290,-200)
