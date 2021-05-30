@@ -53,5 +53,6 @@ finish_line.hideturtle()
 
 # events + loop
 
+
 # close / exit
 turtle.exitonclick()
