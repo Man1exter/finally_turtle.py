@@ -9,17 +9,28 @@ user.shape("turtle")
 user.color("green")
 user.pensize(5)
 turtle.bgcolor("black")
+user.hideturtle()
 turtle.title("who's first at the finish line?")
 
 # players
 
-user_one = turtle.Turtle()
-user_one.shape("turtle")
-user_one.pensize(3)
+# 1
+user_one_pink = turtle.Turtle()
+user_one_pink.color("pink")
+user_one_pink.shape("turtle")
+user_one_pink.pensize(3)
+user_one_pink.penup()
+user_one_pink.goto(-200,100)
+user_one_pink.pendown()
 
-user_two = turtle.Turtle()
-user_two.shape("turtle")
-user_two.pensize(3)
+# 2
+user_two_yellow = turtle.Turtle()
+user_two_yellow.color("yellow")
+user_two_yellow.shape("turtle")
+user_two_yellow.pensize(3)
+user_two_yellow.penup()
+user_two_yellow.goto(-200,-10)
+user_two_yellow.pendown()
 
 # start-line
 
