@@ -51,5 +51,7 @@ finish_line.goto(290,-200)
 
 finish_line.hideturtle()
 
+# events + loop
+
 # close / exit
 turtle.exitonclick()
