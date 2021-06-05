@@ -4,21 +4,24 @@ import turtle
 
 # settings
 
+# set colors..add()..add()... background
+colors_bgc  = ["lightblue","pink","dark","white","brown","yellow"]
+color_bgc = random.choice(colors_bgc)
+
 user = turtle.Turtle()
 user.shape("turtle")
 user.color("green")
 user.pensize(5)
-turtle.bgcolor("black")
+turtle.bgcolor(color_bgc)
 user.hideturtle()
 turtle.title("who's first at the finish line?")
 
 # players
 
 # set colors..add()..add()... turtle
-colors  = ["red","green","blue","orange","purple","pink","yellow"]
+colors  = ["red","green","blue","orange","purple","pink"]
 color = random.choice(colors)
 
-# set colors..add()..add()... background
 
 # 1
 user_one_pink = turtle.Turtle()
