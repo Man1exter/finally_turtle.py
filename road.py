@@ -19,6 +19,8 @@ colors  = ["red","green","blue","orange","purple","pink","yellow"]
 color = random.choice(colors)
 
 # set colors..add()..add()... background
+colors_bgc  = ["red","green","blue","orange","purple","pink","yellow"]
+color_bgc = random.choice(colors_bgc)
 
 # 1
 user_one_pink = turtle.Turtle()
