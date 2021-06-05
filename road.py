@@ -14,9 +14,11 @@ turtle.title("who's first at the finish line?")
 
 # players
 
-# set colors..add()..add()
+# set colors..add()..add()... turtle
 colors  = ["red","green","blue","orange","purple","pink","yellow"]
 color = random.choice(colors)
+
+# set colors..add()..add()... background
 
 # 1
 user_one_pink = turtle.Turtle()
